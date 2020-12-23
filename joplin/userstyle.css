@@ -1,0 +1,62 @@
+/* html-ized markdown */
+/* designed originally by uxamanda (https://discourse.joplinapp.org/u/uxamanda). latest version https://github.com/amandamcg/joplin-theme */
+/* Redesigned by Stephen (robotcorner) https://https://github.com/robotcorner/joplin-theme-dark-gruvbox */
+
+:root {
+    --white: #E5FFDE;
+    --dark-white: #CEE5C7;
+    --light-grey: #44475A;
+    --grey: #040010;
+    --dark-grey: #040010;
+    --darker-grey: #040010;
+    --black: #050017;
+    --red: #FF1744;
+    --red-dark: #FF1744;
+    --green: #23CD60;
+    --green-dark: #23CD60;
+    --yellow: #E7AE1D;
+    --yellow-dark: #E7AE1D;
+    --blue: #02A4F1;
+    --blue-dark: #02A4F1;
+    --purple: #F459F4;
+    --purple-dark: #F459F4;
+    --aqua: #00F8F8;
+    --aqua-dark: #00F8F8;
+    --orange: #E7AE1D;
+    --orange-dark: #E7AE1D;
+    --base-size-1: 1px;
+    --base-size-4: 5px;
+    --base-size-8: 9px;
+    --base-size-11: 11px;
+    --base-size-12: 12px;
+    --base-size-13: 13px;
+    --base-size-14: 14px;
+    --base-size-15: 15px;
+    --base-size-16: 16px;
+    --base-size-17: 17px;
+    --base-size-18: 18px;
+    --base-size-18: 19px;
+    --base-size-24: 24px;
+    --base-size-32: 32px;
+    --base-size-40: 40px;
+    --base-size-272: 272px;
+    --z-toc: 99;
+    --font-weight-light: 300;
+    --font-weight-base: 550;
+    --font-weight-base-extra: 550;
+    --font-weight-bold: 600;
+    --font-title: "GoogleSans Nerd Font";
+    --font-sans: "GoogleSans Nerd Font"; /*Montserrat or Corbel*/
+    --font-mono: "RobotoMono Nerd Font";
+    --primary: var(--yellow);
+    --secondary: var(--yellow);
+    --font-line-height: 1.4em;
+    --font-size: var(--base-size-14);
+    --icon-size: var(--font-size);
+}
+
+* {
+    font-family: var(--font-sans) !important;
+    font-size: var(--font-size) !important;
+}
+
